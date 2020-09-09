@@ -1,0 +1,13 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  max-width: 1280px;
+  margin: 0 auto;
+  background: #2A2C2F;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+@import url(../fonts/fonts.css);

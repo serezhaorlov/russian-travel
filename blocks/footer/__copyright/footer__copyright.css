@@ -1,0 +1,54 @@
+.footer__copyright {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 1280px) and (min-width: 1280px){
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+  }
+}
+
+
+@media screen and (max-width: 1024px){
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 690px){
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 14px;
+    align-self: flex-start;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .footer__copyright {
+  font-size: 14px;
+  line-height: 14px;
+  text-align: right;
+
+  }
+}

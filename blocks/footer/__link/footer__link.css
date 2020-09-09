@@ -1,0 +1,65 @@
+.footer__link {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  margin-right: 16px;
+  /* identical to box height, or 112% */
+
+  text-decoration-line: none;
+  color: #FFFFFF;
+}
+
+.footer__link:hover {
+  opacity: .8;
+  text-decoration-line: underline;
+}
+
+
+@media screen and (max-width: 1280px) and (min-width: 1280px){
+  .footer__link {
+    font-size: 16px;
+    line-height: 18px;
+    margin-right: 16px;
+    text-decoration-line: none;
+  }
+}
+
+
+@media screen and (max-width: 1024px){
+  .footer__link {
+    font-size: 16px;
+    line-height: 18px;
+    margin-right: 16px;
+    text-decoration-line: none;
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  .footer__link {
+    font-size: 16px;
+    line-height: 18px;
+    margin-right: 18px;
+    text-decoration-line: none;
+  }
+}
+
+@media screen and (max-width: 690px){
+  .footer__link {
+    font-size: 16px;
+    line-height: 18px;
+    margin: 0 30px 16px 0;
+    text-decoration-line: none;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .footer__link {
+    font-size: 16px;
+    line-height: 18px;
+    margin: 0 0 16px 0;
+    text-decoration-line: none;
+  }
+}
