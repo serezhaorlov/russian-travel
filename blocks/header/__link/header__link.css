@@ -7,7 +7,8 @@
   font-size: 24px;
   line-height: 28px;
   text-align: right;
-  text-decoration-line: none;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
   color: #FFFFFF;
   margin-top: 19px;
 }
@@ -17,7 +18,8 @@
 }
 
 .header__link:hover{
-  text-decoration-line: underline;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
   opacity: .85;
 }
 

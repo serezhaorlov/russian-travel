@@ -10,72 +10,34 @@
   width: 40%;
 }
 
-@media screen and (max-width: 1280px) and (min-width: 1280px){
+@media screen and (max-width: 1280px) {
   .cover__subtitle {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    color: #FFFFFF;
-    margin: 0;
-    width: 40%;
+    width: 50%;
   }
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .cover__subtitle {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    color: #FFFFFF;
-    margin: 0;
-    width: 40%;
+    width: 45%;
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .cover__subtitle {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    color: #FFFFFF;
-    margin: 0;
-    width: 60%;
+    width: 50%;
   }
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 425px) {
   .cover__subtitle {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    color: #FFFFFF;
-    margin: 0;
-    width: 80%;
-  }
-}
-
-@media screen and (max-width: 320px){
-  .cover__subtitle {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
+    width: 120%;
     font-size: 14px;
     line-height: 16px;
-    text-align: center;
-    color: #FFFFFF;
-    margin: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__subtitle {
     width: 90%;
   }
 }

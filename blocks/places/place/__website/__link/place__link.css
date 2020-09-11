@@ -4,11 +4,13 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
-  text-decoration-line: none;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
   color: #FFFFFF;
 }
 
 .place__link:hover {
-  text-decoration-line: underline;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
   opacity: .85;
 }

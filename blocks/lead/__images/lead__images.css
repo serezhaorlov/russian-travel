@@ -1,4 +1,12 @@
 .lead__images {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__images {
+    width: 100%;
+  }
 }

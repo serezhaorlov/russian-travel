@@ -1,69 +1,32 @@
 .intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-self: flex-start;
-  width: 60%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
+  width: 80%;
   margin: 92px 148px;
 }
 
 
-@media screen and (max-width: 1280px) and (min-width: 1280px){
+@media screen and (max-width: 1024px) {
   .intro {
-    display: flex;
-    flex-direction: column;
-    align-self: flex-start;
-    width: 60%;
-    margin: 92px 148px;
-  }
-}
-
-@media screen and (max-width: 1024px){
-  .intro {
-    display: flex;
-    flex-direction: column;
-    align-self: flex-start;
-    width: 70%;
+    -ms-flex-item-align: baseline;
+        align-self: baseline;
     margin: 92px 48px;
   }
 }
 
-
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .intro {
-    display: flex;
-    flex-direction: column;
-    align-self: flex-start;
-    width: 96%;
+    -ms-flex-item-align: baseline;
+        align-self: baseline;
+    width: 91%;
     margin: 88px 0 88px 24px;
   }
 }
 
-@media screen and (max-width: 425px){
-  .intro {
-    display: flex;
-    flex-direction: column;
-    align-self: flex-start;
-    width: 90%;
-    margin: 88px 0 88px 24px;
-  }
-}
-
-@media screen and (max-width: 375px){
-  .intro {
-    display: flex;
-    flex-direction: column;
-    align-self: flex-start;
-    width: 90%;
-    margin: 88px 0 88px 24px;
-  }
-}
-
-@media screen and (max-width: 320px){
-  .intro {
-    display: flex;
-    flex-direction: column;
-    align-self: flex-start;
-    width: 90%;
-    margin: 64px 16px;
-  }
-}

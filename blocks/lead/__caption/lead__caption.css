@@ -4,10 +4,19 @@
   font-weight: normal;
   font-size: 10px;
   line-height: 14px;
-  /* identical to box height, or 140% */
-  margin: 8px 24px 0;
+  margin: 8px 0 0;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  align-self: flex-start;
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
   color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    margin: 8px 0 0 24px;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
 }
