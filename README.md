@@ -5,4 +5,4 @@
 
 И очень надеюсь сдать все до воскресенья чтобы не уйти в академ *Thumbs Up*
 
-Ссылка на мою версиию проекта "Путешествие по России" на Github.pages -
+Ссылка на мою версиию проекта "Путешествие по России" на Github.pages - https://serezhaorlov.github.io/russian-travel/index.html
