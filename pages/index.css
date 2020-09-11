@@ -12,14 +12,14 @@
 @import url(../blocks/cover/cover.css);
 /*Блок cover*/
 
-@import url(../blocks/places/place/__paragraph-container/place__paragraph-container.css);
-@import url(../blocks/places/place/__paragraph/place__paragraph.css);
-@import url(../blocks/places/place/__website/__link/place__link.css);
-@import url(../blocks/places/place/__website/__url-heading/place__url-heading.css);
-@import url(../blocks/places/place/__website/place__website.css);
-@import url(../blocks/places/place/__image/place__image.css);
-@import url(../blocks/places/place/__title/place__title.css);
-@import url(../blocks/places/place/place.css);
+@import url(../blocks/place/__paragraph-container/place__paragraph-container.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__website/__link/place__link.css);
+@import url(../blocks/place/__website/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/place.css);
 @import url(../blocks/places/places.css);
 /*Блок places/place*/
 
@@ -49,9 +49,15 @@
 @import url(../blocks/header/header.css);
 /*Блок header*/
 
+@import url(../vendor/fonts/fonts.css);
+/*Блок шрифтов*/
+
 @import url(../blocks/main/content.css);
 @import url(../blocks/page/page.css);
 /*Блок page*/
 
-@import url(../blocks/main-page/main-page.css)
-/*Подключил шрифты*/
+@import url(../blocks/main-page/main-page.css);
+
+/*Блок main-page*/
+
+

@@ -13,7 +13,7 @@
       -ms-flex-align: center;
           align-items: center;
   z-index: 1;
-  padding: 200px 210px;
+  padding: 240px 210px;
   margin:0;
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
@@ -22,13 +22,7 @@
 
 @media screen and (max-width: 1024px) {
   .cover__text-container {
-    padding: 250px 210px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .cover__text-container {
-    padding: 190px 100px;
+    padding: 190px 180px;
   }
 }
 

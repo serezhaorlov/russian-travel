@@ -8,7 +8,7 @@
   font-size: 72px;
   line-height: 76px;
   text-align: center;
-  width: 60%;
+  width: 75%;
   margin: 0 0 32px;
   color: #FFFFFF;
 }
@@ -22,7 +22,7 @@
 
 @media screen and (max-width: 1024px) {
   .cover__title {
-    width: 65%;
+    width: 80%;
   }
 }
 
