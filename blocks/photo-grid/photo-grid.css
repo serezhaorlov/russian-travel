@@ -42,7 +42,7 @@
     grid-template-columns: repeat(auto-fit, minmax(332px, -webkit-min-content));
     grid-template-columns: repeat(auto-fit, minmax(332px, min-content));
     width: 77%;
-    margin: 0;
+    margin: 0 0 92px 0;
   }
 }
 
