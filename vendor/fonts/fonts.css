@@ -1,24 +1,27 @@
 @font-face {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  src: url(../vendor/fonts/Inter-Regular.woff2) format(woff2),
+  src: url(../vendor/fonts/Inter-Regular.woff2) format("woff2"),
        url(../vendor/fonts/Inter-Regular.woff) format("woff");
 }
 
 @font-face {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
-  src: url(../vendor/fonts/Inter-Black.woff2) format(woff2),
+  src: url(../vendor/fonts/Inter-Black.woff2) format("woff2"),
        url(../vendor/fonts/Inter-Black.woff) format("woff");
 }
 
 @font-face {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
   font-style:  700;
   font-weight: bold;
   font-display: swap;
   src: url(../vendor/fonts/Inter-Bold.woff2) format("woff2"),
        url(../vendor/fonts/Inter-Bold.woff) format("woff");
 }
+
+
+/*Видимо я не верно понял про подключение двух шрифтов в блоке, после отключения Arial и пункта Sans-serif все надписи стали отображаться как в макете 1 в 1, извините что торможу!*/
