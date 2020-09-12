@@ -38,13 +38,15 @@
 @media screen and (max-width: 1024px) {
   .cover {
     width: 100%;
-    max-height: 750px;
+    max-height: 650px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
     margin: 0 0 92px 0;
+    max-height: 450px;
+
   }
 }
 
