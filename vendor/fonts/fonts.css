@@ -2,8 +2,8 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  src: url(./Inter-Regular.woff2) format("woff2"),
-       url(./Inter-Regular.woff) format("woff");
+  src: url('./Inter-Regular.woff2') format("woff2"),
+       url('./Inter-Regular.woff') format("woff");
 }
 
 @font-face {
@@ -24,4 +24,3 @@
 }
 
 
-/*Видимо я не верно понял про подключение двух шрифтов в блоке, после отключения Arial и пункта Sans-serif все надписи стали отображаться как в макете 1 в 1, извините что торможу!*/
