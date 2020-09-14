@@ -17,6 +17,8 @@
   }
 }
 
+
+
 @media screen and (max-width: 768px) {
   .photo-grid {
     grid-template-columns: repeat(auto-fit, minmax(352px, -webkit-min-content));
@@ -26,26 +28,40 @@
   }
 }
 
+@media screen and (max-width: 749px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(334px, -webkit-min-content));
+    grid-template-columns: repeat(auto-fit, minmax(334px, min-content));
+    width: 55%;
+  }
+}
+
+/* лучшее что я мог придумать чтобы хоть как-то сгладить переход*/
+
 @media screen and (max-width: 425px) {
   .photo-grid {
-    grid-template-columns: repeat(auto-fit, minmax(332px, -webkit-min-content));
-    grid-template-columns: repeat(auto-fit, minmax(332px, min-content));
-    width: 77%;
-    margin: 0 44px 92px;
+    grid-template-columns: repeat(auto-fit, minmax(315px, -webkit-min-content));
+    grid-template-columns: repeat(auto-fit, minmax(315px, min-content));
+    width: 79%;
+    margin: 0 48px 92px;
   }
 }
 
 @media screen and (max-width: 375px) {
   .photo-grid {
-    width: 95%;
-    margin: 0 16px 64px;
+    width: 75%;
+    margin: 0 24px 64px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, -webkit-min-content));
+    grid-template-columns: repeat(auto-fit, minmax(300px, min-content));
   }
 }
+
 
 @media screen and (max-width: 320px) {
   .photo-grid {
     grid-template-columns: repeat(auto-fit, minmax(288px, -webkit-min-content));
     grid-template-columns: repeat(auto-fit, minmax(288px, min-content));
-    width: 88%;
+    width: 90%;
+    margin: 0 16px 64px;
   }
 }
