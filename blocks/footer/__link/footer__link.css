@@ -10,11 +10,6 @@
   color: #FFFFFF;
 }
 
-.footer__link:hover {
-  opacity: .8;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
-}
 
 
 @media screen and (max-width: 425px) {
@@ -27,7 +22,6 @@
 
 @media screen and (max-width: 320px) {
   .footer__link {
-
     margin: 0 0 32px;
   }
 }

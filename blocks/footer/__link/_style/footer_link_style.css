@@ -1,0 +1,10 @@
+.footer__link_style {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.footer__link:hover {
+  opacity: .8;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}

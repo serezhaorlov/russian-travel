@@ -3,6 +3,8 @@
   display: -ms-flexbox;
   display: flex;
   width: 40%;
+  list-style-type: none;
+  padding: 0;
 }
 
 
