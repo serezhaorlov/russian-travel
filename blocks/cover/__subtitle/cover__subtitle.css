@@ -1,4 +1,5 @@
 .cover__subtitle {
+  list-style-type: none;
   font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -7,21 +8,18 @@
   text-align: center;
   color: #FFFFFF;
   margin: 0;
+  max-height: 100px;
   width: 50%;
+
 }
 
 
 @media screen and (max-width: 1024px) {
   .cover__subtitle {
-    width: 65%;
+    width: 55%;
   }
 }
 
-@media screen and (max-width: 768px) {
-  .cover__subtitle {
-    width: 50%;
-  }
-}
 
 @media screen and (max-width: 425px) {
   .cover__subtitle {
@@ -31,8 +29,9 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
   .cover__subtitle {
     width: 90%;
   }
 }
+

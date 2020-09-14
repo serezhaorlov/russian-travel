@@ -10,7 +10,6 @@
 
 @media screen and (max-width: 425px) {
   .footer__copyright {
-    font-size: 14px;
     line-height: 14px;
     -ms-flex-item-align: unset;
         -ms-grid-row-align: unset;
@@ -21,8 +20,6 @@
 
 @media screen and (max-width: 320px) {
   .footer__copyright {
-    font-size: 14px;
-    line-height: 14px;
     -ms-flex-item-align: baseline;
         align-self: baseline;
     margin: 0;

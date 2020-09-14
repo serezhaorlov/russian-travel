@@ -1,5 +1,5 @@
 .photo-grid {
-  width: 93%;
+  width: 94%;
   display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, -webkit-min-content));
@@ -11,21 +11,11 @@
 }
 
 
-@media screen and (max-width: 1280px) {
-  .photo-grid {
-    width: 93%;
-    grid-template-columns: repeat(auto-fit, minmax(284px, -webkit-min-content));
-    grid-template-columns: repeat(auto-fit, minmax(284px, min-content));
-    margin: 0 48px 92px;
-  }
-}
-
 @media screen and (max-width: 1024px) {
   .photo-grid {
-    width: 91%;
+    width: 93%;
     grid-template-columns: repeat(auto-fit, minmax(300px, -webkit-min-content));
     grid-template-columns: repeat(auto-fit, minmax(300px, min-content));
-    margin: 0 48px 92px;
   }
 }
 
@@ -33,7 +23,8 @@
   .photo-grid {
     grid-template-columns: repeat(auto-fit, minmax(352px, -webkit-min-content));
     grid-template-columns: repeat(auto-fit, minmax(352px, min-content));
-    width: 94%;
+    width: 96%;
+    margin: 0 24px 92px;
   }
 }
 
@@ -46,11 +37,18 @@
   }
 }
 
+@media screen and (max-width: 375px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(332px, -webkit-min-content));
+    grid-template-columns: repeat(auto-fit, minmax(332px, min-content));
+    width: 95%;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .photo-grid {
     grid-template-columns: repeat(auto-fit, minmax(288px, -webkit-min-content));
     grid-template-columns: repeat(auto-fit, minmax(288px, min-content));
     width: 88%;
-    margin: 0 0 92px;
   }
 }

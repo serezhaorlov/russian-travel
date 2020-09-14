@@ -9,8 +9,11 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+
   background-image: url(../../images/cover-background.png);
   background-size: cover;
+  background-position: center; /* отцентрировал изображение*/
+
   margin: 0 48px 92px;
   position: relative;
   max-height: 750px;
@@ -50,15 +53,9 @@
   }
 }
 
+
 @media screen and (max-width: 425px) {
   .cover {
-    margin: 0 0 92px 0;
     max-height: 300px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover {
-    margin: 0 0 92px 0;
   }
 }

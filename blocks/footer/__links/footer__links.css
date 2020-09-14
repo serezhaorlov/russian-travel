@@ -18,13 +18,4 @@
 }
 
 
-@media screen and (max-width: 320px) {
-  .footer__links {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    width: 20%;
-    -ms-flex-item-align: baseline;
-        align-self: baseline;
-    margin: 0;
-  }
-}
+

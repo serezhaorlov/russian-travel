@@ -10,6 +10,7 @@
   text-align: center;
   width: 75%;
   margin: 0 auto;
+  margin-bottom:32px;
   color: #FFFFFF;
 }
 
@@ -28,19 +29,33 @@
 
 @media screen and (max-width: 768px) {
   .cover__title {
-    width: 30%;
-    font-size: 32px;
-    line-height: 35px;
+    width: 70%;
+
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .cover__title {
+    width: 45%;
+    margin-bottom: 16px;
+    font-size: 42px;
+    line-height: 46px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .cover__title {
     width: 100%;
-    margin: 0 0 16px;
+    font-size: 32px;
+    line-height: 35px;
   }
 }
 
+@media screen and (max-width: 375px) {
+  .cover__title {
+    width: 80%;
+  }
+}
 
 @media screen and (max-width: 320px) {
   .cover__title {

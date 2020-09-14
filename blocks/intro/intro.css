@@ -15,8 +15,6 @@
 
 @media screen and (max-width: 1024px) {
   .intro {
-    -ms-flex-item-align: baseline;
-        align-self: baseline;
     margin: 92px 48px;
     width: 90%;
   }
@@ -24,19 +22,17 @@
 
 @media screen and (max-width: 768px) {
   .intro {
-    -ms-flex-item-align: baseline;
-        align-self: baseline;
-    width: 91%;
-    margin: 88px 0 88px 24px;
+    width: 94%;
+    margin: 88px 24px;
   }
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
   .intro {
     -ms-flex-item-align: unset;
         align-self: unset;
     width: 91%;
-    margin: 88px 0 88px 24px;
+    margin: 64px 16px;
   }
 }

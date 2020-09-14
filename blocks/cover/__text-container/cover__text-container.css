@@ -17,6 +17,7 @@
   margin:0;
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
+
 }
 
 
@@ -29,13 +30,19 @@
 
 @media screen and (max-width: 768px) {
   .cover__text-container {
-    padding: 180px 0px;
+    padding: 130px 10px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .cover__text-container {
     padding: 70px 100px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cover__text-container {
+    padding: 65px 30px;
   }
 }
 

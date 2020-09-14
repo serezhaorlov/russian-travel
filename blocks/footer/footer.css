@@ -26,14 +26,12 @@
 @media screen and (max-width: 1024px) {
   .footer {
     width: 91%;
-    margin: 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .footer {
     width: 94%;
-    margin: 0;
   }
 }
 
@@ -44,7 +42,6 @@
         -ms-flex-direction: column;
             flex-direction: column;
     width: 50%;
-    margin: 0;
     -ms-flex-item-align: unset;
         -ms-grid-row-align: unset;
         align-self: unset;
@@ -53,10 +50,6 @@
 
 @media screen and (max-width: 320px){
   .footer {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
     width: 89%;
     margin: 0 0 0 16px;
   }
