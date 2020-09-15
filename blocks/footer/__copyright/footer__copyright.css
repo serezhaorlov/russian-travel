@@ -23,5 +23,6 @@
     -ms-flex-item-align: baseline;
         align-self: baseline;
     margin: 0;
+    line-height: 14px;
   }
 }

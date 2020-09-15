@@ -1,4 +1,6 @@
-.footer__link_style {
+.footer__link-style {
+  color: #FFFFFF;
+  list-style-type: none;
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
 }
