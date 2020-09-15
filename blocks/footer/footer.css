@@ -33,13 +33,12 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 50%;
+    width: 92%;
   }
 }
 
 @media screen and (max-width: 320px){
   .footer {
-    width: 89%;
     margin: 0 0 0 16px;
   }
 }
