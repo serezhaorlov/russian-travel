@@ -1,12 +1,10 @@
 .footer__link-style {
   color: #FFFFFF;
   list-style-type: none;
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
 
 .footer__link:hover {
   opacity: .8;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
 }
