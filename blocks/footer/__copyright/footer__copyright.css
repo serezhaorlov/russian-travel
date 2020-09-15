@@ -11,18 +11,10 @@
 @media screen and (max-width: 425px) {
   .footer__copyright {
     line-height: 14px;
-    -ms-flex-item-align: unset;
-        -ms-grid-row-align: unset;
-        align-self: unset;
-    margin: 0 0 0 9px;
+    margin: 0;
+    -ms-flex-item-align: baseline;
+    align-self: baseline;
   }
 }
 
-@media screen and (max-width: 320px) {
-  .footer__copyright {
-    -ms-flex-item-align: baseline;
-        align-self: baseline;
-    margin: 0;
-    line-height: 14px;
-  }
-}
+
