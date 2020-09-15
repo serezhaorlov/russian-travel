@@ -1,7 +1,5 @@
 .footer__link-style {
   color: #FFFFFF;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
 }
 
 .footer__link:hover {
