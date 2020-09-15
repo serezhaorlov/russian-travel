@@ -1,15 +1,17 @@
 .footer__link {
-  font-family: 'Inter', 'Arial', sans-serif;
+
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 18px;
   margin-right: 16px;
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none;
-
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
 }
 
+.footer__link:hover {
+  opacity: .8;
+}
 
 
 @media screen and (max-width: 716px) {

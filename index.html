@@ -141,13 +141,15 @@
       </section>
     </main>
     <footer class="footer">
+      <nav class="footer__menu">
         <ul class="footer__links">
           <li class="footer__link"><a href="#" class="footer__link-style">Карты</a></li>
           <li class="footer__link"><a href="#" class="footer__link-style">Погода</a></li>
-          <li class="footer__link"><a href="#" class="footer__link-style">Расписание</a></li>
-          <li class="footer__link"><a href="#" class="footer__link-style">Календарь</a></li>
-          <li class="footer__link"><a href="#" class="footer__link-style">Путешествия</a></li>
-        </ul>
+          <li class="footer__link"><a href="#" class="footer__link-style">Расписание</a></li> <!--я не стал отказываться от класса footer__link в li по причине того,-->
+          <li class="footer__link"><a href="#" class="footer__link-style">Календарь</a></li> <!--что без него я не могу сделать отступы между ссылками на 425xp и ниже, если убрать класс в ссылку,-->
+          <li class="footer__link"><a href="#" class="footer__link-style">Путешествия</a></li> <!--то отступы между ссылками будут минимальными, и не регулируемыми-->
+        </ul> <!--в прошлых работах это не требовалось, поэтому там класс не обозначали в li. в footer__menu по сути нечего написать, тк все стили заданы в footer__links, перенес в него-->
+      </nav> <!--хоть что-то чтобы класс не был пустым.-->
       <p class="footer__copyright">© 2020. Сережа Орлов</p>
     </footer>
   </div>
