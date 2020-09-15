@@ -1,7 +1,13 @@
 .footer__link-style {
   color: #FFFFFF;
+  text-decoration-line: none;
 }
 
 .footer__link:hover {
   opacity: .8;
 }
+
+
+/*Я убрал!
+  очень тяжелая неделя,извините(
+*/
